@@ -1,0 +1,160 @@
+body{
+	background-image: url('../img/back.jpg');
+	background-size: cover;
+
+}
+/*Navbar*/
+.navbar{
+	background-color: #0DB5F8;
+}
+.navbar-brand, .nav-link{
+	color: white;
+	font-size: 15px;
+	
+}	
+
+#btn{
+	background-color: #01448B;
+	color: white !important;
+	margin-top: 2px;
+	border-radius: 10px;
+}
+#btn:hover{
+	border: 2px solid #01448B;
+	background-color: transparent;
+}
+/*End Navbar*/
+/*Dekstop*/
+@media (min-width: 992px) {
+.nav-link{
+	color: white;
+	font-size: 17px;
+	text-shadow: 2px 2px 2px  #403E3E;
+	
+}
+.navbar-brand{
+	color: white;
+	font-size:25px;
+	font-family: 'Lobster', cursive;
+}
+.navbar-brand:hover{
+	color: white;
+}	
+.dropdown-menu{
+	background: rgb(0, 0, 0, 0.5);
+
+}
+.dropdown-item{
+	color: white;
+}
+.dropdown-item:hover{
+	background-color: #ffff;
+
+	
+}
+.list:hover::after{
+		content: '';
+		color: white !important;
+		display: block;
+		border-bottom: 2px solid #FFF8F8;
+		width: 100%;
+		margin: auto;
+		
+		margin-bottom: -8px;
+
+	}
+.br{
+	border-right: 2px solid #FFFFFF;
+	height: 30px;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+.ls:hover{
+	color: white;
+}
+#btn{
+	background-color: #01448B;
+	color: white !important;
+	margin-top: 2px;
+	border-radius: 10px;
+	width: 80px;
+}
+#btn:hover{
+	border: 2px solid #01448B;
+	background-color: transparent;
+	margin-top: 2px;
+	border-radius: 10px;
+	width: 80px;
+}
+
+/*=====================================*/
+#container{
+	background: rgb(0, 0, 0, 0.5);
+	border-radius: 3px;
+	width: 1240px;
+	height: 151px;
+	margin-top: 15px;
+	
+
+}
+#search{
+	width: 80%;
+	height: 50px;
+}
+#ps{
+	top: 30px;
+	left: 65px;
+
+	position: relative;
+}
+#button{
+	color: white;
+	background-color: #0DB5F8;
+	text-transform: uppercase;
+	width: 100px;
+}
+#button:hover{
+	border-color: #0DB5F8;
+	background-color:transparent;
+	text-transform: uppercase;
+	width: 100px;	
+
+}
+.bawah{
+	margin-top: 25px;
+	position: relative;
+}
+#nav-bawah{
+	background: transparent;
+	width: 82%;
+	left: 50px;
+
+}
+.list-bawah{
+	margin-left: 70px;
+}
+.list-bawah:hover{
+	color: white;
+}
+/*Lable*/
+.isi{
+	margin-top: 23%;
+	width: 30%;
+	border-radius: 60px;
+	margin-left: 15%;
+	border: 3px solid #14AAE5;
+	background-color: rgba(0,0,0,0.5);
+	
+}	
+.homes{
+	font-size: 40px;
+	font-family: roboto;
+	color: white;
+	padding: 2px;
+	margin-left: 40px;
+}
+.icn-search{
+	width: 50px;
+	height: 50px;
+}
+}
